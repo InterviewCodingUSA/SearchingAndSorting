@@ -14,8 +14,7 @@ public class Main {
         int sum = 0;      // initialize sum of whole array
         int leftsum = 0; // initialize leftsum
 
-        for (int i = 0; i < arr.length; i++)
-            sum += arr[i];
+        for (int j : arr) sum += j;
         for (int i = 0; i < arr.length; i++)
         {
             sum = sum - arr[i];
